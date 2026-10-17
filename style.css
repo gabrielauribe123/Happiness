@@ -411,7 +411,23 @@ footer > img {
 
 .redes {
     display: flex;
-    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+}
+
+.redes a {
+    color: var(--amarillo);
+    font-size: 24px;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.redes a:hover {
+    transform: scale(1.2);
+    text-decoration: none;
 }
 
 header {
